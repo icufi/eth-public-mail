@@ -3,18 +3,24 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Box } from '@mui/system';
 import { IconButton } from '@mui/material';
 
-const style = {};
+const styles = {
+    img: {
+backgroundSize: 'contain',
+height: '80px',
+marginLeft: '8px'
+    }
+};
 
 const HeaderLeft = () => {
   return (
-    <Box sx={{ ...style }}>
+    <Box sx={{...styles}}>
       <IconButton>
         <MenuIcon />
       </IconButton>
-      <img
-        src=''
-        alt=''
-      />
+        <img
+          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbVN7m67yz_HQ1d_qFoT-V57Oc8BYwSV_YYG87frW16eRmezWlbFDNIFk0nTxPhdunCvg&usqp=CAU'
+          alt='Gmail Logo'
+        />
     </Box>
   );
 };
