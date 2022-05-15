@@ -9,6 +9,7 @@ const styles = {
   display: 'flex',
   mt: '8px',
   ml: '8px'
+
 };
 
 const HeaderLeft = () => {

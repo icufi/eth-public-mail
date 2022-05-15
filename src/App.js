@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <h2>Public Mail Build</h2>
     </div>
   );
 }
