@@ -3,14 +3,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Box } from '@mui/system';
 import { IconButton } from '@mui/material';
 
-import tempLogo from '../../assets/images/tempLogo.png'
+import ImageLogo from './ImageLogo';
 
 const styles = {
-    img: {
-backgroundSize: 'contain',
-height: '80px',
-marginLeft: '8px'
-    }
+  display: 'flex',
+  mt: '8px',
+  ml: '8px'
 };
 
 const HeaderLeft = () => {
@@ -19,10 +17,7 @@ const HeaderLeft = () => {
       <IconButton>
         <MenuIcon />
       </IconButton>
-        <img
-          src={tempLogo}
-          alt='Gmail Logo'
-        />
+      <ImageLogo />
     </Box>
   );
 };
