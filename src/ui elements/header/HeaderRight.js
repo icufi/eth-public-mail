@@ -6,7 +6,10 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const styles = {
   icons: {
-    pr: '60px',
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    width: '100px',
+    mr:'20px'
   },
 };
 
